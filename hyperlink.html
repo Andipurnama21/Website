@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlink With CSS</title>
+
+    <style>
+        /* Selector Menggunakan Titik (.) Untuk class */
+        /* .a1{
+            text-decoration: none;
+        } */
+
+        /* Selector Menggunakan Pagar (#) Untuk id */
+        /* #b2{
+            text-decoration: none;
+        } */
+
+        /* Selector Tag Tidak Menggunakan Symbol Apapun  */
+        a {
+            /* Untuk menghapus underline pada hyperlink (A) */
+            text-decoration: none;
+            /* Untuk merubah warna font/tulisan */
+            color: white;
+            /* Untuk merubah warna background */
+            background-color: blue;
+            /* Membuat jarak inline pada object */
+            padding: 10px;
+            /* Membuat lelukan pada object */
+            border-radius: 10px;
+            /* Membuat border/bingkai menggunakan tema yang ditentukan */
+            border-style: solid;
+            /* Untuk mewarnai border/bingkai */
+            border-color: black;
+        }
+
+        h1 {
+            /* Menentukan letak text */
+            text-align: center;
+            /* Menentukan ukuran tulisan/font */
+            font-size: 3rem;
+        }
+
+        #b1 {   
+            margin-bottom: 2rem;
+            width: 29%;
+            display: block;
+            /* Untuk membuat jarak outline pada object secara otomatis di tengah*/
+            margin: auto;
+        }
+
+        .button1 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .button2 {
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Social Media</h3>
+        <div class="button1">
+            <a class="a1" id="b1" href="index.html">Halaman Index</a>
+        </div>
+        <div class="button2">
+            <a href="https://www.facebook.com/andipurnama21" target="_blank">Facebook</a>
+            <a href="https://youtube.com" target="_blank">Youtube</a>
+            <a href="https://www.instagram.com/andiprnmaa_" target="_blank">Instagram</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://github.com" target="_blank">Github</a>
+        </div>
+</body>
+
+</html>
